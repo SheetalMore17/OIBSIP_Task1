@@ -1,0 +1,494 @@
+@charset "utf-8"{}
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Oswald:wght@600&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Atkinson+Hyperlegible&family=Oswald:wght@600&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img{
+    width:100%;
+}
+.div5{
+    font-family: 'Atkinson Hyperlegible';
+
+}
+.imagg4{
+    background-image: url(../images/slide-1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+    height: 60vh;
+}
+body{
+    overflow-x: hidden;
+}
+.para{
+    padding: 18px;
+    padding-top: 40px;
+}
+.widd{
+    height: 100vh;
+}
+.font{
+    font-size: 22px;
+    font-weight: 700; 
+}
+.font2{
+    font-size: 13px;
+}
+.img{
+    display: none;
+}
+.para img{
+    width: 50%;
+}
+.color{
+    background-color: rgba(250, 250, 250, 2);
+}
+.btn5{
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+    border: white;
+    background-color: #CFA670;
+    border-radius: 2px;
+    margin-top: 15px;
+    border-radius: 6px;
+    height: 40px;
+}
+.about{
+    background: url(../images/testimonial.jpg);
+    padding-top: 0px;  
+}
+.navdiv1 a:hover {
+    color: #CFA670;
+}
+.sec2{
+    padding-top: 60px;
+    padding:40px 10px;
+}
+.sec2div2 h1{
+    font-size: 17px;
+    font-weight: 700;
+}
+.sec2div2 p{
+    font-size: 12px;
+}
+.sec2head{
+    font-size: 22px;
+    font-weight: 700;
+}
+.dis {
+    list-style: none;
+    border:1px solid grey;
+    padding-bottom: 10px;
+}
+.dis a{
+    text-decoration: none;
+    font-size: 10px;
+    color:black;
+    font-weight: 700;
+}
+.navdiv1  li:first-child{
+    color:orange;
+}
+.fonttt1{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.fonttt{
+    font-family: 'Arizonia', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.hero{
+    padding-top: 50px;
+}
+.hero1{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.text3{
+    text-align: center; 
+    font-size: 13px;
+}
+.navdiv,.navdiv1{
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.sec2div2{
+    padding-top: 30px;
+}
+.sec2div2 img{
+    border-radius: 50%;
+    padding: 0 10px;
+}
+ .sec2div2 figcaption{
+     padding-top: 30px;
+}
+.sec2div2 figcaption button{
+    background-color: #CFA670;
+    border-radius: 40px;  
+}
+.btn2{
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+    border: white;
+}
+
+.sec3{
+    background-color: rgba(250, 250, 250, 2);
+
+}
+.img3 h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.img3 p{
+    padding: 0px 10px;
+    font-size: 0px;
+    text-align: center;
+}
+.font3{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.font4{
+    font-size: 13px;
+    padding: 0px 8px;
+}
+.marg{
+    margin: 5px;
+    width: 95%;   
+}
+.marg:hover{
+    border: 2px solid black;
+}
+
+.bg-1{
+    background-color: rgba(250, 250, 250, 2);
+}
+.btn3{
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+    border: white;
+    background-color: #CFA670;
+    border-radius: 2px;
+    margin-top: 15px;
+    border-radius: 6px;
+    height: 40px;
+    width: 45%;
+}
+.copy1{
+    display: flex;
+}
+.imgbutton a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 700;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+}
+.maindiv1 h2{
+      font-size: 18px;
+      font-weight: 700;
+}
+.maindiv1 p{
+    font-size: 12px;
+    opacity: 0.6;
+}
+.maindiv1 a{
+    padding: 0;
+    color:white;
+    padding-left: 10px;
+    text-align:start;
+}
+.maindiv2 p{
+    font-size: 12px;
+    opacity: 0.6;
+    display: inline;
+}
+.maindiv2 h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.maindiv3 h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+.input{
+    width:70%;
+}
+.inputbutton{
+    width:30%;
+    font-size: 8px;
+    line-height: 3.4;
+    padding-top: 0;
+    
+}
+.maindiv3 p{
+    font-size: 12px;
+    opacity: 0.6;
+    padding-top:5px;
+}
+.copy p{
+  font-size: 10px;
+}
+.listt a{
+    text-decoration: none;
+    font-size: 10px;
+     color:white;
+    padding-bottom: 20px;   
+}
+.list{
+    padding-bottom: 30px;
+    text-align: end;
+}
+.textarea{
+    position: relative;
+
+}
+.imagg{
+    text-align: center;
+    background-color: #FAFAFA;
+}
+.fonttt2{
+    font-family: 'Playfair Display', serif;
+}
+@media(min-width:768px){ 
+
+    body{
+        overflow-x: hidden;
+    }
+.font{
+    font-size: 30px;
+}
+.font2{
+    font-size: 16px;
+}
+.font5{
+    font-size: 14px;
+}
+.para img{
+    width: 30%;
+}
+.sec2 h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.sec2 p{
+    font-size: 16px;
+}  
+.navdiv1
+{
+    margin-left: 0;
+    padding: 0px;
+    padding-left: 0px;
+}
+.sec2div2 h1{
+    font-size: 17px;
+    font-weight: 700;
+}
+.sec2div2 p{
+    font-size: 12px;
+    padding: 0 5px;
+}
+.font3{
+    font-size: 30px;
+}
+.fontt4{
+    font-size: 30px;
+}
+.font6{
+    font-size: 30px;
+    font-family:'Playfair Display', serif;
+}
+.font4{
+    font-size: 16px;
+}
+.image-5{
+    margin: -80px; 
+    height: 70vh;
+    width: 200px;
+}
+.image-6{
+    width: 250px;
+}
+.dis{
+    padding-left: 80px;
+}
+.res-1{
+    padding: 0 150px;
+}
+.btn3{
+    width: 20%;
+}
+.maindiv3 h2{
+    font-size: 18px;
+}
+.maindiv1,.maindiv2 ,.maindiv3{
+    padding: 0 60px;
+    padding-top: 10px;
+}
+.logo1{
+    width: 200px;
+    padding-left: 50px;
+}
+.fonttt{
+    font-family: 'Arizonia', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.fonttt1{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.hero1{
+    padding: 0 200px;
+    font-size: 15px;
+}
+.imagg4{
+    height: 70vh;
+}
+
+}
+@media (min-width:998px)
+{ 
+.image-5{
+    width: 50%;
+}
+.font, .sec2head {
+    font-family:'Playfair Display', serif;
+}
+.font3{
+    font-family:'Playfair Display', serif;
+}
+.image-6{
+    width: 50%;
+}
+.font4{
+    font-size: 16px;
+    font-family:'Playfair Display', serif;
+}
+.font5{
+    font-size: 16px;
+}
+.para-5{
+    padding-left: 90px;
+}
+.para{
+    top: 50;
+    left: 50;
+}
+.sec2{
+    padding-top: 150px;
+}
+.list{
+    padding: 0 100px;
+    line-height: 4;
+}
+.list a{
+    font-size: 14px;
+}
+.dis{
+    padding-left: 250px;
+}
+.sec2div2 h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+.sec2div2 p{
+    font-size: 19px;
+    opacity: 0.7;
+}
+.btn2{
+    padding: 10px 20px;
+}
+.sec3{
+    background-color: rgba(250, 250, 250, 2);
+
+}
+.font7{
+    font-weight: 700;
+    font-family:'Playfair Display', serif;
+    font-size: 22px;
+}
+.fontt4{
+    font-size: 30px;
+    font-family:'Playfair Display', serif;
+}
+.bg-1{
+    padding: 50px 150px;
+    
+}
+.marg{
+    line-height: 3;
+    padding-left: 10px;
+}
+.imagg img{
+    width:40%;
+}
+.imagg1{
+  padding-left: 300px;
+}    
+.sec2head{
+    font-size: 30px;
+    font-weight: 700;
+}
+.para-5{
+    background-color: #FAFAFA;
+}
+.footermain h2{
+    font-size: x-large;
+}
+.footermain p{
+    font-size: 14px;
+}
+.lastfooter p{
+    font-size: 14px;
+}
+.listt a{
+    font-size: 14px;
+}
+.logo{
+    width: 150px;
+}
+.fonttt{
+    font-family: 'Arizonia', cursive;
+    font-size: 90px;
+    font-weight: bolder;
+}
+.fonttt1{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.fonttt2{
+    font-family: 'Playfair Display', serif;
+}
+.hero{
+    padding-top: 200px;
+}
+.hero1{
+    padding: 0 400px;
+    font-size: 20px;
+}
+.imagg4{
+    height: 100vh;
+}
+}
+          
